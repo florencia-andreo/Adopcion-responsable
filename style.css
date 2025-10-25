@@ -1,0 +1,74 @@
+/* ============================
+   Estilos generales del sitio
+============================ */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7e1ee;  /* rosa muy clarito de fondo */
+  color: #3e2f5b;  /* violeta oscuro para el texto */
+}
+
+/* ============================
+   Encabezados
+============================ */
+h1, h2, h3 {
+  font-weight: bold;
+  color: #5b3e8b;  /* violeta mas claro */
+}
+
+/* ============================
+   Navbar personalizada
+============================ */
+.navbar {
+  background-color: #bf7ccf !important; /* fondo violeta no muy oscuro */
+}
+
+.navbar-brand {
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #e5d4ff !important; /* violeta muy claro */
+}
+
+.nav-link:hover {
+  color: #d4b5ff !important;
+}
+
+/* ============================
+   Imagen principal index
+============================ */
+.img-fluid {
+  max-width: 500px;
+  transition: transform 0.4s ease;
+}
+
+.img-fluid:hover {
+  transform: scale(1.05);
+}
+
+/* ============================
+   Tarjetas de adopciones
+============================ */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(91, 62, 139, 0.3);
+}
+
+.card-title {
+  color: #5b3e8b;
+}
+
+/* ============================
+   Botones
+============================ */
+.btn-primary {
+  background-color: #5b3e8b;
+  border-color: #5b3e8b;
+  transition: backgr
